@@ -1,5 +1,6 @@
 .a {
-    height: 100vh;
+    padding-top: 14px;
+    height: 99vh;
     display: flex;
     align-items: center;
   }
@@ -11,6 +12,7 @@
     justify-content: center;
     position: relative;
     height: 100%;
+    
   }
   
   .a-right {
@@ -22,6 +24,7 @@
     top: 50px;
     left: 50px;
     background-color: #333;
+    aspect-ratio: auto;
   }
   
   .a-card {
@@ -41,7 +44,7 @@
   .a-award-img {
     width: 120px;
     height: 120px;
-    border-radius: 20px;
+    border-radius: 1px;
   }
   
   .a-title {
