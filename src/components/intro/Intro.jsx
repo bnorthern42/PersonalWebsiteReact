@@ -3,14 +3,18 @@ import "./intro.css";
 import Me from "../../img/me.png";
 
 const Intro = () => {
+ 
+  
+  //--randoval
   return (
     <div className='i'>
         <div className='i-left'>
             <div className="i-left-wrapper">
-                <h2 className='i-intro'>Hello, My name is</h2>
+                <h2 className='i-intro'>Hello, my name is</h2>
                 <h1 className='i-name'>Brad Northern</h1>
-                <div className="i-title">
-                    <div className="i-title-wrapper">
+
+                <div className="i-title"> 
+                    <div className="i-title-wrapper"> 
                         <div className="i-title-item">
                             Masters Student
                         </div>
@@ -21,10 +25,10 @@ const Intro = () => {
                             Research Assistant
                         </div>
                         <div className="i-title-item">
-                           Cyber Security fan
+                           Software Engineer
                         </div>
                         <div className="i-title-item">
-                           Cyber Security fan2
+                        <a href="https://vercasm.com" class="link">Vulnerability Analyst</a>
                         </div>
                     </div>
                   
@@ -93,19 +97,23 @@ const Intro = () => {
             </g>
           </g>
         </svg>
-        </div>
+        </div> 
         <div className='i-right'>
            <div className="i-right-wrapper">
                 <div className="i-bg">
-
+ 
                 </div>
                 <div className="i-img-wrapper">
                 <img src={Me} alt="" className="i-img" />
+                <div className="i-right-text">
+                <h5><blockquote>std::cout&lt;&lt; "Hello World!\n";</blockquote></h5>
+                </div>
                 </div>
                 
                 </div>
-        </div>
-       </div>
+                
+        </div>   
+       </div> 
   )
 }
 
