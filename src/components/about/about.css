@@ -1,4 +1,11 @@
 .a {
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/*.a {
     padding-top: 14px;
     height: 99 vh;
     display: flex;
@@ -74,4 +81,9 @@
       font-weight: bold;
       color: #555;
       margin-bottom: 10px;
+  }*/
+
+  .a-img{
+    width: 200px;
+    height: 100px;
   }

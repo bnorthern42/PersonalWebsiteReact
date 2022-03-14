@@ -36,7 +36,7 @@ const Intro = () => {
                 <p className="i-desc">
                         I am currently a Masters Student of Computer Science
                         at Tennessee Technological University. I am proud of 
-                        a few skills including Spring Boot MVC, PostgreSQL, and
+                        being a 'jack of all trades' of skills including Spring Boot MVC, PostgreSQL, and
                         ReactJS. I have many more, please explore my site to see
                         all the skills I offer and the work I have achieved.
                 </p> 
@@ -106,7 +106,18 @@ const Intro = () => {
                 <div className="i-img-wrapper">
                 <img src={Me} alt="" className="i-img" />
                 <div className="i-right-text">
-                <h5><blockquote>std::cout&lt;&lt; "Hello World!\n";</blockquote></h5>
+                  <div className="css-typing">
+                <p>std::cout&lt;&lt;"Hello World!\n";</p>
+                <p>system.out.println("Hello World!);</p>
+                <p>console.log("Hello World!"); 
+                
+                </p>
+                <div className='tooltip'>
+                  <i id='secretsmall'>? </i>
+               
+                <span className='tooltiptext'>I like to code, if you can't tell, lol</span>
+                </div>
+                </div>
                 </div>
                 </div>
                 
