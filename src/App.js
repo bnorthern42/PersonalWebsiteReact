@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {BrowserRouter as Router,  Route, Routes}
+    from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./components/Pages/Home";
+import Skills from "./components/Pages/Skills";
+import WorkExp from "./components/Pages/WorkExp";
+import Education from "./components/Pages/Education";
+import Achiev from "./components/Pages/Achiev";
+import PubNPats from "./components/Pages/PubNPats";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <Router>
+            <Navbar/>
+                <Routes>
+                    <Route exact path="/" element={<Home/>} />
+                    <Route path="/skills" element={<Skills/>} />
+                    <Route path="/workexp" element={<WorkExp/>} />
+                    <Route path="/education" element={<Education/>} />
+                    <Route path="/achievements" element={<Achiev/>} />
+                    <Route path="/pubsnpats" element={<PubNPats/>} />
+                </Routes>
+        </Router>
+
+    </>
   );
 }
 

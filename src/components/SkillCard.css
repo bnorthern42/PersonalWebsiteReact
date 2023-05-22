@@ -1,0 +1,93 @@
+.skillsPageWrapper {
+
+    background: linear-gradient(-35deg,  #9e86c8,  #e87d3e, #b4d273, #6c99bb);
+    -webkit-animation: Animation 25s ease infinite;
+    -moz-animation: Animation 25s ease infinite;
+    animation: Animation 25s ease infinite;
+    background-size: 200% 200%;
+    justify-self: center;
+    min-height: 100vh;
+
+    cursor: help;
+}
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+
+.cardWrapper {
+
+    flex-shrink: 4;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-radius: 2%;
+
+}
+.cardWrapper:hover {
+    border-radius: 2.2%;
+    box-shadow: #242424;
+}
+.skillsContainer {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-flow: row wrap;
+
+
+}
+.skillsWrapper {
+
+    align-items: stretch;
+    margin-right: 8vw;
+    flex: 2;
+    max-width: 50vw;
+    align-self: flex-end;
+
+    flex-shrink: 2;
+
+
+
+}
+.skillTitles {
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 20vw;
+    align-self: flex-start;
+
+}
+
+.skillDivider {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 1%;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+.circle{
+    color: black;
+    content: '◎ ';
+    /*background: linear-gradient(65deg, #3f87a6, #f69d3c, #b4d273);*/
+
+    background-size: 100% 100%;
+    -webkit-animation: Animation 10s ease infinite;
+    -moz-animation: Animation 10s ease infinite;
+    animation: Animation 10s ease infinite;
+    margin-left: 5px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}

@@ -1,0 +1,75 @@
+.SchoolInfo-Wrapper {
+    flex: 1;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.page {
+    display: flex;
+    flex-direction: row;
+
+}
+.edu {
+    height: 100vh
+;
+    background: linear-gradient(-35deg,  #9e86c8,  #e87d3e, #b4d273, #6c99bb);
+    -webkit-animation: Animation 25s ease infinite;
+    -moz-animation: Animation 25s ease infinite;
+    animation: Animation 25s ease infinite;
+    background-size: 300% 300%;
+}
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+
+.SchoolInfo {
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index:1;
+
+    padding-bottom: 1vh;
+    left: 50%;
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+
+    transform: translate(-50%, -35%);
+}
+.schoolVideo {
+    margin: auto;
+    width: 100%;
+
+}
+.videoBanner{
+    object-fit: cover;
+    position:relative;
+    z-index:0;
+
+    aspect-ratio: 16/9;
+    width: 100vw;
+    max-height: 20vh;
+    min-width: 100%;
+
+}
