@@ -8,7 +8,7 @@ function MediaCard({
                    }) {
     return (
         <Card sx={{ maxWidth: 820,
-            borderRadius: 5
+            borderRadius: 10
 
         }}>
             <CardContent>

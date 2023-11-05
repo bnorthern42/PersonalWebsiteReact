@@ -35,10 +35,8 @@ function Skills(props) {
         'Electrical Wiring (120-480V, single or three phase)', 'Fast Learner (Pattern Recognition Skills)'];
     return (
         <div className='skillsPageWrapper'>
-           <PageTitle title='Skills'
-                      titleSize='title--mainSize'
-                      titleColor="1F2120"
-                      bgColor="#E0FFF8"/>
+
+            <div className='head1'>Skills</div>
             <div className='skillDivider'></div>
 
             <div className='skillsContainer'>

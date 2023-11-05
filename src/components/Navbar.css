@@ -43,7 +43,7 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(7, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -92,13 +92,14 @@
         display: flex;
         flex-direction: column;
         width: 45%;
-        height: 40vh;
+        height: auto;
         position: absolute;
         top: 100px;
         left: -100%;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.65s ease;
         justify-content: flex-start;
+        margin-bottom: 5vh;
     }
 
     .nav-menu.active {
@@ -135,7 +136,7 @@
         top: 0;
         right: 0;
         transform: translate(-100%, 60%);
-        font-size: 1.7rem;
+        font-size: 1.65rem;
         cursor: pointer;
     }
 

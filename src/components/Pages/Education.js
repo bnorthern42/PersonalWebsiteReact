@@ -3,21 +3,20 @@ import PageTitle from "../PageTitle";
 import { Spacer } from "@nextui-org/react";
 import MediaCard from "../CardComps/MediaCard";
 import '../../PageCSS/Education.css';
+import HeroProj from "../Projects/HeroProj";
 function Education(props) {
 
 
 
     return (
         <div className='edu'>
-            <PageTitle title='Education'
-                       titleSize='title--mainSize'
-                       titleColor="black"
-                       bgColor="#93d602"/>
+
+            <HeroProj title='Education'/>
         <div className='page'>
 
 
             <div className='SchoolInfo-Wrapper'>
-
+                <div className='schoolBox'>
                 <div className='SchoolInfo'>
                     <MediaCard DegreeInfo="PhD Engineering"
                             source="/videos/pexels-Server.mp4"
@@ -27,11 +26,12 @@ function Education(props) {
 
                 </div>
                 <div className='schoolVideo'>
-                    <video autoPlay loop muted className='videoBanner' src="/videos/pexels-Server.mp4">
+                    <video autoPlay loop muted className='videoBanner' src={process.env.PUBLIC_URL +"/videos/pexels-Server.mp4"}>
 
                     </video>
                 </div>
-                <Spacer y={1} />
+                </div>
+                <div className='schoolBox'>
                     <div className='SchoolInfo'>
                         <MediaCard DegreeInfo="M.S. Computer Science"
                                    source="/videos/pexels-cyber.mp4"
@@ -41,9 +41,10 @@ function Education(props) {
 
                     </div>
                     <div className='schoolVideo'>
-                        <video autoPlay loop muted className='videoBanner' src="/videos/pexels-cyber.mp4"/>
+                        <video autoPlay loop muted className='videoBanner' src={process.env.PUBLIC_URL +"/videos/pexels-cyber.mp4"}/>
                     </div>
-                <Spacer y={1} />
+                </div>
+                <div className='schoolBox'>
                 <div className='SchoolInfo'>
                     <MediaCard DegreeInfo="B.S. Manufacturing and Engineering Technology"
                                source="/videos/pexels-manufacturing.mp4"
@@ -53,9 +54,9 @@ function Education(props) {
 
                 </div>
                 <div className='schoolVideo'>
-                    <video autoPlay loop muted className='videoBanner' src="/videos/pexels-manufacturing.mp4"/>
+                    <video autoPlay loop muted className='videoBanner' src={process.env.PUBLIC_URL +"/videos/pexels-manufacturing.mp4"}/>
                 </div>
-                <Spacer y={1} />
+                </div>
                 <h3>Current Research:</h3>
                     <ul>
                         <li>

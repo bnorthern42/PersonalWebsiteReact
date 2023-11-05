@@ -1,9 +1,9 @@
 {
   "name": "bnorthern-info",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://bnorthern42.github.io/PersonalWebsiteReact/",
+  "private": false,
   "dependencies": {
+    "@dhaiwat10/react-link-preview": "^1.15.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -17,13 +17,15 @@
     "@testing-library/user-event": "^13.5.0",
     "font-awesome": "^4.7.0",
     "react": "^18.2.0",
+    "react-csv-to-table": "^0.0.1",
     "react-dom": "^18.2.0",
+    "react-icons-kit": "^2.0.0",
     "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "PORT=3006 react-scripts start",
+    "start": "HOST=192.168.64.50 PORT=3006 react-scripts start",
     "build": "PORT=3006 react-scripts build",
     "test": "PORT=3006 react-scripts test",
     "eject": "PORT=3006 react-scripts eject"
@@ -47,6 +49,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
+    "url-loader": "^4.1.1"
   }
 }

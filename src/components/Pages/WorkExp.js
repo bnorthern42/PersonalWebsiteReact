@@ -1,9 +1,12 @@
 import React from 'react';
+import HeroProj from "../Projects/HeroProj";
+import WTable from "../WorkTable/WTable";
 
 function WorkExp(props) {
     return (
         <div>
-            work exp
+            <HeroProj title='Work Experience'/>
+            <WTable/>
         </div>
     );
 }

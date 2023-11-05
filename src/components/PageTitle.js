@@ -29,10 +29,15 @@ export default function PageTitle({
             >
             <div className='titleCard--wrapper'>
                 <Grid item xs={3}>
-            <Card sx={{ minWidth: 275,
-                        borderRadius: '2vw',
+            <Card sx={{ maxWidth: '55vw',
+                        minWidth: '40vw',
+                        borderRadius: '3vw',
+                        objectFit: 'cover',
                         width: '100%',
-                        backgroundColor: bgColor  }}>
+                        backgroundColor: bgColor,
+                        margin: "0 auto",
+                        padding: "0.1em",
+                        }}>
                 <CardContent>
                     <Box
                         display="flex"

@@ -13,7 +13,7 @@ export const Button = ({
       ? buttonSize
       : SIZES[0];
   return (
-      <Link to='/downloadResume' className='btn-mobile'>
+      <Link to="/resumes/Bnorthern23_007.pdf" target="_blank" download="BradleyNorthern_Resume.pdf" className='btn-mobile'>
           <button
               className={`btn ${checkButtonStyle} ${checkButtonSize}`}
               onClick={onClick}

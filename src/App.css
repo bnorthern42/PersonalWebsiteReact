@@ -81,3 +81,13 @@
     transform: rotate(360deg);
   }
 }
+.head1 {
+  font-size: xxx-large;
+  font-weight: 600;
+  font-family: 'Kanit', sans-serif;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  padding-top: 1vh;
+  margin-bottom: 1vh;
+}

@@ -9,7 +9,7 @@ import WorkExp from "./components/Pages/WorkExp";
 import Education from "./components/Pages/Education";
 import Achiev from "./components/Pages/Achiev";
 import PubNPats from "./components/Pages/PubNPats";
-
+import Projects from "./components/Pages/Projects";
 function App() {
 
   return (
@@ -23,6 +23,7 @@ function App() {
                     <Route path="/education" element={<Education/>} />
                     <Route path="/achievements" element={<Achiev/>} />
                     <Route path="/pubsnpats" element={<PubNPats/>} />
+                    <Route path="/projects" element={<Projects/>} />
                 </Routes>
         </Router>
 
