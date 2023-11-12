@@ -2,6 +2,7 @@ import React from 'react';
 import PageTitle from "../PageTitle";
 import SkillCard from "../SkillCard";
 import '../SkillCard.css';
+
 function Skills(props) {
     const genSkills        = ['Reserch and Development (CS)', 'High Performance Computing',
         'Cyber Security', 'Database Management', 'Version Control', 'Lean Manufacturing'];
@@ -34,7 +35,9 @@ function Skills(props) {
         'Mikrotik Administration', 'Server / Desktop Computer Builder', 'Novice Circuit Tinkerer',
         'Electrical Wiring (120-480V, single or three phase)', 'Fast Learner (Pattern Recognition Skills)'];
     return (
+
         <div className='skillsPageWrapper'>
+
 
             <div className='head1'>Skills</div>
             <div className='skillDivider'></div>

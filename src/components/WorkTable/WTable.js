@@ -93,7 +93,7 @@ function WTable(props) {
                     shadow
                     noMargin
                     align="center"
-                    rowsPerPage={5}
+                    rowsPerPage={3}
                     onPageChange={(page) => console.log({ page })}
                 />
             </Table>

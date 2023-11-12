@@ -5,6 +5,7 @@ import {Link} from "react-router-dom";
 
 function HeroSection(props) {
     return (
+        <div className='bodyWrap'>
         <div className='hero-container'>
             <div className='vidWrapper'>
             <video src={process.env.PUBLIC_URL +"/videos/pexels-tech-01.mp4"}
@@ -24,6 +25,7 @@ function HeroSection(props) {
 
                     Download Resume</Button>
             </div>
+        </div>
         </div>
     );
 }
