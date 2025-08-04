@@ -9,20 +9,24 @@ import Achiev from "./components/Pages/Achiev";
 import PubNPats from "./components/Pages/PubNPats";
 import Projects from "./components/Pages/Projects";
 import PageTransition from "./components/PageTransition";
+import Encompass from "./components/Pages/Encompass";
+import Resume from "./components/Pages/Resume";
 
 function AnimatedRoutes() {
     return(
     <AnimatePresence mode='wait'>
 
         <Routes location={useLocation()} key={useLocation().pathname}>
-            <Route exact path="/" element={<PageTransition Page={ <Home/>} /> }/>
+            <Route exact path="/" element={<Home/>}/>
             <Route path="/skills" element={<PageTransition Page={<Skills/>}  />}/>
-            <Route path="/workexp" element={<PageTransition Page={<WorkExp/>}  />}/>
+            <Route path="/workexp" element={<WorkExp/>}/>
 
-            <Route path="/education" element={<PageTransition Page={<Education/>}  />}/>
-            <Route path="/achievements" element={<PageTransition Page={<Achiev/>}  />}/>
-            <Route path="/pubsnpats" element={<PageTransition Page={<PubNPats/>}  />}/>
-            <Route path="/projects" element={<PageTransition Page={<Projects/>}  />}/>
+            <Route path="/education" element={<Education/>}  />
+            <Route path="/achievements" element={<Achiev/>}/>
+            <Route path="/pubsnpats" element={<PubNPats/>}/>
+            <Route path="/projects" element={<Projects/>}/>
+            <Route path="/enc" element={<Encompass/>} />
+            <Route path="/res" element={<Resume/>}/>
 
         </Routes>
     </AnimatePresence>

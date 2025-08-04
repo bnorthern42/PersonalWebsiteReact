@@ -12,24 +12,29 @@
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.1",
     "@nextui-org/react": "^1.0.0-beta.12",
+    "@techstark/opencv-js": "^4.9.0-release.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "font-awesome": "^4.7.0",
     "framer-motion": "^10.16.4",
+    "fs": "^0.0.1-security",
+    "postcss-normalize": "^13.0.1",
     "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
     "react-csv-to-table": "^0.0.1",
     "react-dom": "^18.2.0",
     "react-icons-kit": "^2.0.0",
     "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
+    "react-webcam": "^7.2.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "HOST=192.168.64.50 PORT=3006 react-scripts start",
-    "build": "PORT=3006 react-scripts build",
-    "test": "PORT=3006 react-scripts test",
-    "eject": "PORT=3006 react-scripts eject"
+    "start": "PORT=3006 react-app-rewired start",
+    "build": "PORT=3006 react-app-rewired build",
+    "test": "PORT=3006 react-app-rewired test",
+    "eject": "PORT=3006 react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": [
@@ -53,5 +58,10 @@
     "file-loader": "^6.2.0",
     "gh-pages": "^5.0.0",
     "url-loader": "^4.1.1"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }

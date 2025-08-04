@@ -21,7 +21,6 @@ function ProjSection(props) {
                 source={`${process.env.PUBLIC_URL}/images/nistLogo.jpg`}
                 title='CVE2DBMS'
                 description='This service is responsible in taking in CVE JSON Data and importing them into a Relational Database Management System.
-                We are using PostgreSQL. Most other solutions rely on NO-SQL.
                 This solution provides and easy solution to clean data for Data Science and other Statistical work around the use of CVE data.'
                 link='https://github.com/vercasm/CVE2DBMS'
             />
@@ -57,6 +56,7 @@ function ProjSection(props) {
                     '
                 link='https://github.com/bnorthern42/Wurm-Random-Tools'
             />
+            
 
         </div>
     );
