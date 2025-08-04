@@ -11,8 +11,8 @@ function PageTransition ({Page}) {
             className="main__container"
             initial={{ width: 80 }}
             animate={{ width: "100%" }}
-            exit={{ x: "100%", opacity: 0, scale: 0.25, rotate: 20 }}
-            transition={{ duration: 1 }}
+            exit={{ x: "100%", opacity: 0, scale: 0.25, rotate: 0}}
+            transition={{ duration: 0.7 }}
         >
             {Page}
 

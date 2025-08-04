@@ -1,0 +1,16 @@
+.webcamContWrapper {
+ display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    flex: 2;
+}
+#webcamCont{
+    video {
+        width: 300px;
+    }
+
+}
+#canvasOutput{
+
+}

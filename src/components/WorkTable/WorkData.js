@@ -3,9 +3,9 @@ export const WorkData = [
         id: 5,
         Company: 'Encompass Manufacturing',
         Type: 'Manufacturing',
-        Description: 'Processing Haitian Injection Molding Machines (IMMs) and Absolute Robotics 3 axis robotics using a wide variety of materials; This includes: TPE, PP, ABS, and Nylon',
+        Description: 'Processing Haitian Injection Molding Machines (IMMs) and Absolute Robotics 3 axis robotics using a wide variety of materials; This includes: TPV, PP, ABS, and Nylon. Mostly in the Automotive sector.',
         DateStart: 'June 2023',
-        DateEnd: 'Present',
+        DateEnd: 'October 2024',
         RoleName: 'Process Technician',
         ListDesc: [
             {
@@ -18,11 +18,11 @@ export const WorkData = [
         id: 1,
         Company: 'Code Club AB',
         Type: 'Software',
-        Description: 'For the game Wurm Online, a Java based MMORPG sandbox style game in which I am responsible in fixing bugs, adding new features requested by the player base, and aid in documentation.' ,
+        Description: ' Spearheaded the integration of new features and enhancements in Wurm Online, improving player engagement and satisfaction. Instrumental in debugging and optimizing Java-based code, significantly enhancing game performance and user experience.' ,
 
         DateStart: 'April 2023',
         DateEnd: 'Present',
-        RoleName: 'Volunteer Game Developer',
+        RoleName: 'Game Developer',
         ListDesc: [
             {
                 data : ''
@@ -35,7 +35,7 @@ export const WorkData = [
         id: 2,
         Company: 'Securonix',
         Type: 'Software',
-        Description: ' Developed automated testing of Role Based Access Control testing for the product Snypr. Optimized testing initialization by nearly 50% by optimizing search on configuration files. Set up full automation pipelines with Jenkins build server and Docker. Created a custom public NPM library \'search-pdf-regex\' for validating pdf content. Also involved in filing environment bugs that arise from the product while testing.',
+        Description: ' Developed and implemented automated Role-Based Access Control tests for Snypr, reducing initialization time by 50%. Engineered a custom public NPM library, ‘search-pdf-regex’, to validate PDF content based on user roles, enhancing report accuracy and compliance.',
         DateStart: 'June 2022',
         DateEnd: 'August 2022',
         RoleName: 'SDET Intern',
@@ -50,25 +50,10 @@ export const WorkData = [
         id: 3,
         Company: 'Tennessee Tech University',
         Type: 'Education',
-        Description: ' Assisted my advisor in research and in programming. Developing a full micro-service web application for evaluating cyber risks and vulnerabilities in computing systems. This being developed with Java 11 and Spring Boot. Furthermore, help with reports and writing conference and/or journal papers.',
-        DateStart: 'August 2020',
-        DateEnd: 'May 2022',
-        RoleName: 'Graduate Research Assistant',
-        ListDesc: [
-            {
-                data : ''
-            },
-            {  data : ''}
-        ]
-    },
-    {
-        id: 4,
-        Company: 'Tennessee Tech University',
-        Type: 'Education',
-        Description: ' Programming in NodeJS and C++ using AES encryption with key generation on the fly. Develop C++ to NodeJS addons using N-API. Use cyber security techniques to test code for vulnerabilities. Develop brute force prevention techniques for related projects around authentication.',
+        Description: 'Developed a Java Spring-based microservice web application for cyber risk assessment. Authored scholarly papers and contributed to research on cryptographic based spreadsheet containers.',
         DateStart: 'August 2019',
-        DateEnd: 'May 2020',
-        RoleName: 'Undergraduate Research Assistant',
+        DateEnd: 'May 2022',
+        RoleName: 'Research Assistant',
         ListDesc: [
             {
                 data : ''
